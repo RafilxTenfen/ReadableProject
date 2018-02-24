@@ -1,0 +1,186 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 60px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.categories-container{
+  margin: 10px 10px 10px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.categories-container > Button {
+  margin-right: 5px;
+}
+
+.categories-container > h4 {
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+.link-categories {
+  color: black;
+  margin: 0% 0.5%;
+}
+
+.link-categories:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.postList div {
+  margin: 5px auto;
+  width: 500px;
+  background-color: aliceblue;
+}
+
+.postList-title {
+  color: #000022;
+  height: 38px;
+}
+
+.postList-body {
+  text-align: justify;
+  height: 15px;
+  margin-top: -3%;
+  margin-bottom: -5%;
+}
+
+.postList-author {
+  height: 35px;
+  font-size: 80%;
+  text-align: left;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.hand-score {
+  font-size: 110%;
+  margin: 0.3% 1%;
+}
+
+.hand-score:hover{
+  cursor: pointer;
+}
+
+.footer-icons {
+  float: right;
+}
+
+.button-filter {
+  width: 500px;
+  margin: 1% auto;
+  flex-wrap: nowrap;
+  display: flex;
+  text-align: center;
+}
+
+.icon-alter-post{
+  float: right;
+}
+
+.comment-icon {
+  font-size: 110%;
+  margin: 0% 1%;
+}
+
+.comment-icon:hover {
+  cursor: pointer;
+}
+
+.icon-alter-post:hover {
+  cursor: pointer;
+}
+
+.button-categories {
+  color: black;
+}
+.icon-delete-post {
+  float: left;
+  transform: rotate(45deg);
+}
+.icon-delete-post:hover {
+  cursor: pointer;
+}
+
+.modal-add-post {
+  min-width: 50%;
+}
+
+.modal-add-post Form {
+  margin: 2% 2%;
+}
+
+.submit-modal-add-post {
+  display: block;
+  float: left;
+}
+
+.commentCard {
+  height: 50%;
+}
+.commentBody {
+  height: 50%;
+  font-size: 90%;
+  margin-top: 1%;
+  margin-bottom: 0.1%;
+}
+.commentFooter {
+  height: 15px;
+  font-size: 75%;
+  display: flex;
+  text-align: left;
+  margin-top: -2%;
+}
+.comments {
+  font-size: 90%;
+}
+.fullPost {
+}
+.postDivisor {
+  height: 10px;
+  background-color: white;
+  display: block;
+}
+.view-post-icon:hover {
+  cursor: pointer;
+}
+.icon-delete-comment {
+  margin: 0.2% 2%;
+}
+
+.icon-alter-comment {
+  margin: 0.2% 3%;
+}
+
+.link-view-post {
+  text-decoration: none;
+  color: black;
+}
+
+.link-view-post:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.container-detail-post {
+  font-size: 60%;
+  margin: 0% 0% 1% 0%;
+  flex-wrap: nowrap;
+  display: flex;
+}
